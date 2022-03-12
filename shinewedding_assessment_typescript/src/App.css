@@ -1,0 +1,85 @@
+
+.navbar {
+  display: flex;
+  padding-top: 10px;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  
+}
+
+@media (max-width: 768px) {
+  .navbar {
+  display: flex;
+  padding-top: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  }
+}
+
+.topnav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.topnav .nav-link {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.brand, .nav-link {
+  text-transform: uppercase;
+  color: #303137;
+}
+.imageStats {
+  display: flex;
+  justify-content: center;
+}
+
+.imageGallery {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  background-color: #E8E2E2;
+  max-width: 220px;
+}
+
+.mockImage {
+  display: inline-block;
+}
+
+img {
+  
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
+.itemClicks {
+  float: right;
+}
+
+table {
+  max-width: 220px;
+}
+
+tr {
+  
+  text-align: center;
+  outline: thin solid;
+}
+
+
+
+
+
+
