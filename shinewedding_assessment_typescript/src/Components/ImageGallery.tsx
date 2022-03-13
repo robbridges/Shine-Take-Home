@@ -19,7 +19,7 @@ const ImageGallery : React.FC = () => {
   const [image5Click, setImage5Click] = useState(0);
   const [image6Click, setImage6Click] = useState(0);
   const [image7Click, setImage7Click] = useState(0);
-  
+
   const clickCountArray: Array<imagePayload> = [
     {name: 'image0', clickCount: image0Click}, 
     {name: 'image1', clickCount: image1Click},
@@ -99,7 +99,7 @@ const ImageGallery : React.FC = () => {
     const newOrderArray = Array.from(newArraySet);
     localStorage.setItem("order", JSON.stringify(newOrderArray))
     /*Comment 4
-    This caused problems with the live reload where the array didn't reset sizes with a full array
+    This caused problems with the live reload where the array didn't reset sizes with a full array of temporary indexes
     This makes sure we can continously flow through state resets, as the array resets itself. */
     if (newIndex.length === 8) {
       newIndex = [];
